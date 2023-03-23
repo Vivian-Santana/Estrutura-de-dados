@@ -16,9 +16,10 @@ public class Main {
 		minhaArvore.inserir(new Obj (20));
 		minhaArvore.inserir(new Obj (31));
 		minhaArvore.inserir(new Obj (29));
+		minhaArvore.inserir(new Obj (32));
 		
 		minhaArvore.exibirInOrdem();
-		minhaArvore.exibirPreOrdem();//OK
+		minhaArvore.exibirPreOrdem();
 		minhaArvore.exibirPosOrdem();
 
 	}

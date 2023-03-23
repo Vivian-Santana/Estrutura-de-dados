@@ -26,7 +26,7 @@ public class ArvoreBinaria<T extends Comparable<T>> {
     }
     //MENOR PARA MAIOR
     public void exibirInOrdem(){
-        System.out.println("\n Exibindo InOrdem");
+        System.out.println("\n Exibindo In-Ordem");
         exibirInOrdem(this.raiz);
     }
 
@@ -39,7 +39,7 @@ public class ArvoreBinaria<T extends Comparable<T>> {
     }
 
     public void exibirPosOrdem(){
-        System.out.println("\n Exibindo PosOrdem");
+        System.out.println("\n Exibindo Pós-Ordem");
         exibirPosOrdem(this.raiz);
     }
 
@@ -52,7 +52,7 @@ public class ArvoreBinaria<T extends Comparable<T>> {
     }
 
     public void exibirPreOrdem(){
-        System.out.println("\n Exibindo PreOrdem");
+        System.out.println("\n Exibindo Pré-Ordem");
         exibirPreOrdem(this.raiz);
     }
 
